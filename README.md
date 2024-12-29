@@ -1,6 +1,6 @@
 # CSE 30342 - Digital Integrated Circuits - University of Notre Dame
 
-## Fan Speed Controller Final Project
+## Fan Speed Controller Final Project Verilog and Tapeout
 
 ## Group Members
 Daniel Noronha - dnoronha@nd.edu
@@ -32,7 +32,7 @@ Fan Speed Controller Inputs (16 bits):
 Fan Speed Controller Outputs (6 bits):
     - speed_set: Signals when the fan speed output is valid for subsequent control device (has been set correctly after reset).
     - current_fan_speed: 2-bit; output to fan/cooling system or DAC attached to the fan/cooling system (final system output)
-    - current_state: 3-bit; just provided for reference, to know the current state of the fan speed controller
+    - current_state: 3-bit; just provieded for reference, to know the current state of the fan speed controller
 
 Finite State Machine (FSM) States (7 total):
     - evaluating_fan_speed = 3'b000; Initial state and state entered after reset is pulled high (reset=1)
