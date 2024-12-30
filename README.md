@@ -7,6 +7,8 @@ Daniel Noronha - dnoronha@nd.edu
 Ricky Ortiz - rortiz4@nd.edu
 Nguyen Nguyen - nnguye24@nd.edu
 
+### The repository includes Verilog  and Caravel layout files
+
 ## Detailed Project Description
 This project consists of controller and datapath modules for a top-level fan_speed_controller Finite State Machine Module.
 It also contains a testbench that can be used with xrun for behavioral simulations of the fan speed controller.
