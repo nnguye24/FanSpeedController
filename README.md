@@ -11,7 +11,7 @@ Nguyen Nguyen - nnguye24@nd.edu
 ## Fan Speed Controller Final Project Verilog and Tapeout
 ![fanspeedcontrollerCaravel](https://github.com/user-attachments/assets/d92ee705-f592-45e1-8dfc-4d2500abaec3)
 
-
+## See gds files in caravel-files for tapeout
 ## Detailed Project Description
 This project consists of controller and datapath modules for a top-level fan_speed_controller Finite State Machine Module.  
 It also contains a testbench that can be used with xrun for behavioral simulations of the fan speed controller.  
